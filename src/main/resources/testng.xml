@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="free crm application automation">
+	<test name="free crm testcases">
+		<classes>
+			<class name="com.crm.qa.testcases.Loginpagetest">
+			</class>
+			<class name="com.crm.qa.testcases.Homepagetest">
+			</class>
+			<class name="com.crm.qa.testcases.Contactspagetest">
+			</class>
+		</classes>
+	</test>
+</suite> 

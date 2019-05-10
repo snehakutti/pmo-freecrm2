@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [free crm application automation]">
+  <test name="free crm testcases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.Contactspagetest">
+        <methods>
+          <include name="validatecreatenewcontact" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Contactspagetest -->
+      <class name="com.crm.qa.testcases.Homepagetest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Homepagetest -->
+      <class name="com.crm.qa.testcases.Loginpagetest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Loginpagetest -->
+    </classes>
+  </test> <!-- free crm testcases(failed) -->
+</suite> <!-- Failed suite [free crm application automation] -->
